@@ -1,20 +1,26 @@
 @import "tailwindcss";
 
-/* colors */
-:root {
-  /* Brand */
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
   --color-gray: #e7e7e3;
   --color-white: #fafafa;
   --color-yellow: #ffa52f;
 }
 
+/* .container {
+  @apply ;
+} */
+
 /* Default body font */
 body {
   background-color: var(--color-gray);
   font-family: var(--font-open-sans);
-  padding-top: 32px;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 /* Utility classes */
