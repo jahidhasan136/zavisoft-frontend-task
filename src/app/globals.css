@@ -19,17 +19,22 @@
   @apply ;
 } */
 
-/* Default body font */
+/* Default body font and color */
 body {
   background-color: var(--color-gray);
   font-family: var(--font-open-sans);
 }
 
-/* Utility classes */
+/* fonts */
 .font-rubik {
   font-family: var(--font-rubik);
 }
 
 .font-open-sans {
   font-family: var(--font-open-sans);
+}
+
+/* buttons */
+button {
+  @apply bg-blue text-white uppercase font-medium text-sm leading-none tracking-[0.25px] rounded-lg py-[15.5px] px-8 cursor-pointer;
 }
